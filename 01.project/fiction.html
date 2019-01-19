@@ -1,0 +1,60 @@
+<div id="fiction">
+
+    <div id="fiction-1">
+
+        <img src="gif/小说.gif"  width="414px" height="200px">
+
+    </div>
+
+    <div id="fiction-2">
+
+        <img src="img/小说图标.png" width="414px" height="160px">
+
+    </div>
+
+    <div id="fiction-3" style="margin: 0 0 10px 0">
+
+        <div id="fiction-3-1">最近阅读 丨</div>
+        <div id="fiction-3-2">神魔霸体 第九章 严令禁口</div>
+        <div id="fiction-3-3">查看更多 ></div>
+
+    </div>
+    <hr>
+    <div id="fiction-4">
+        <img src="img/小说2.jpg" width="390px" height="170px">
+    </div>
+</div>
+
+
+<script src="js/frame/jquery.js"></script>
+
+<script>
+    // $("#content").load("content.html")
+
+    $("#navigation-tianjin").click(function(){
+        $("#content").load("tianjin.html");
+    });
+
+    $("#fiction-3-3").click(function(){
+        $("#content").load("content.html");
+    });
+
+    $("#navigation-fiction").click(function(){
+        $("#content").load("fiction.html");
+    });
+
+    $("#navigation-content").click(function(){
+        $("#content").load("content.html");
+    });
+    $("#send-menu-1-1").click(function(){
+        $("#content").load("content.html");
+    });
+    $("#fiction-3-3").click(function(){
+        $("#content").load("fiction-1.html");
+    });
+    $("#send-menu-1-2").click(function(){
+        $("#content").load("content-video.html");
+
+    })
+
+</script>

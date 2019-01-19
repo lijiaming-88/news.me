@@ -1,0 +1,178 @@
+#signal {
+    height: 30px;
+    background-color:red;
+    display: flex;
+    /*flex-flow: row;*/
+    justify-content: space-between;
+    color: white;
+    font-size: 8px;
+    align-items: center;
+}
+#signal-left {
+    flex: 1;
+    height: 30px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+#signal_center{
+    width: 50px;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: 微软雅黑;
+    font-size: 15px;
+    font-weight: bolder;
+}
+#signal_right {
+    flex: 1;
+    height: 36px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#signal-2 {
+    width: 30px;
+    /*height: 15px;*/
+    display: flex;
+    align-items: flex-end;
+    /*margin-left: 1px;*/
+}
+#signal-2 div {
+    width: 3px;
+    margin-left: 4px;
+    border-radius: 1px;
+}
+#signal-2 div:nth-child(1) {
+    height: 6px;
+}
+#signal-2 div:nth-child(2) {
+    height: 10px;
+}
+#signal-2 div:nth-child(3) {
+    height: 14px;
+}
+#signal-2 div:nth-child(4) {
+    height: 18px;
+}
+.signal-ok {
+    background-color: white;
+}
+.signal-lose {
+    background-color: grey;
+}
+/*#signal-3{*/
+    /*width: 5px;*/
+    /*justify-content: left;*/
+    /*display: flex;*/
+    /*align-items: center;*/
+/*}*/
+#signal-4 {
+    width: 30px;
+    /*height: 16px;*/
+    display: flex;
+    align-items: flex-end;
+    /*margin-left: 4px;*/
+}
+#signal-4 div {
+    width: 3px;
+    margin-left: 4px;
+    border-radius: 1px;
+}
+#signal-4 div:nth-child(1) {
+    height: 6px;
+}
+#signal-4 div:nth-child(2) {
+    height: 10px;
+}
+#signal-4 div:nth-child(3) {
+    height: 14px;
+}
+#signal-4 div:nth-child(4) {
+    height: 18px;
+}
+.signal-ok {
+    background-color: white;
+}
+.signal-lose {
+    background-color: grey;
+}
+.signal-6{
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+#battery_area {
+    height: 36px;
+    width: 35px;
+    margin-right: 4px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#battery_body {
+    height: 12px;
+    width: 32px;
+    border: white 1px solid;
+    border-radius: 1px;
+}
+
+#battery_header {
+    height: 6px;
+    width: 2px;
+    background-color: white;
+
+    border-radius: 0 1px 1px 0;
+}
+
+#battery_core {
+    height: 10px;
+    width: 16px;
+    background-color: red;
+    margin: 1px;
+
+    animation: charge 5s linear infinite;
+}
+
+
+@keyframes charge {
+    0% {
+        background-color: white;
+        width: 1px;
+    }
+
+    20% {
+        background-color: white;
+        width: 7px;
+    }
+
+    80% {
+        background-color: white;
+        width : 26px;
+    }
+    100% {
+        background-color: white;
+        width : 30px;
+    }
+}
+
+
+#location {
+    height: 20px;
+    width: 20px;
+    background-image: url(../img/定位.png);
+    background-size: cover;
+  }
+/*#percent{*/
+    /*text-align: right;*/
+    /*justify-content: right;*/
+/*}*/
+
+

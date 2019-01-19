@@ -1,0 +1,80 @@
+#menu{
+     height: 50px;
+    background-color:antiquewhite;
+      }
+#top{
+    display: flex;
+       align-items: center;
+  }
+#under{
+    display: flex;
+       align-items: center;
+}
+#home{
+    height: 25px;
+    width: 30px;
+    background-image: url(../img/首页-选中.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 63px 0 5px
+}
+#player{
+    height: 25px;
+    width: 30px;
+    background-image: url(../img/空心三角-first.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 68px 0 0
+
+}
+#send{
+    height:25px;
+    width: 30px;
+    background-image: url(../img/加号.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 68px 0 0;
+
+}
+#video{
+    height:25px;
+    width: 30px;
+    background-image: url(../img/小视频.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 53px 0 0
+}
+#mine{
+    height: 25px;
+    width: 30px;
+    background-image: url(../img/我的.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+#send-menu{
+    width: 380px;
+    height: 100px;
+    background-color:white;
+    bottom: 110px;
+    right: 180px;
+    position: relative;
+    border-radius: 20px;
+    display: none;
+    border: grey 1px solid ;
+}
+#send-menu-1{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+#send-menu-2{
+    display: flex;
+    align-items: center;
+  }
+.send-menu-1-1{
+    width: 40px;
+    height: 35px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 15px 10px 10px 10px;
+  }

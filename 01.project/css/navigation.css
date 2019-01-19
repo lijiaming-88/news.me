@@ -1,0 +1,126 @@
+#navigation{
+    background-color: white;
+    height: 30px;
+    border: lightgray 1px solid;
+    display: flex;
+   }
+#navigation-left{
+    height: 30px;
+    display: flex;
+    align-items:center;
+    flex: 90%;
+    justify-content: space-between;
+    margin: 0 0 0 10px;
+   }
+#navigation-right{
+    height: 30px;
+    width: 50px;
+    background-image: url(../img/菜单.png);
+    background-size: contain;
+    background-position:center;
+    background-repeat: no-repeat;
+    /*position: relative;*/
+    flex: 10%;
+        }
+#navigation-left div{
+    width: 50px;
+    align-items: center;
+   }
+
+#navigation-menu{
+    height: 706px;
+    width: 414px;
+    background-color: white;
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    display: none;
+    border-radius: 10px 10px 0 0 ;
+}
+#select-1{
+    background-image: url(../img/关闭.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+#select-2{
+    display: flex;
+    align-items: center;
+
+}
+#select-2-1{
+    font-weight: bolder;
+    margin:0 10px 0 7px;
+}
+#select-2-2{
+    font-size: 15px;
+    color: grey;
+    margin:0 180px 0 0;
+}
+#select-2-3{
+    border: red 1px solid;
+    height: 30px;
+    width: 40px;
+    color: red;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 10px;
+}
+.select-3{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+.select-4{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.select-3-1{
+    height: 40px;
+    width: 90px;
+    background-color:#E0E0E0;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 40px;
+}
+.select-4-1{
+    height: 40px;
+    width: 90px;
+    background-color:#E0E0E0;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 10px;
+}
+#select-5{
+    display: flex;
+    align-items: center;
+}
+#select-5-1{
+    font-weight: bolder;
+    margin:0 10px 0 7px;
+}
+#select-5-2{
+    font-size: 15px;
+    color: grey;
+    margin:0 180px 0 0;
+}
+.select-6{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    justify-content: space-between;
+}
+.select-6-1{
+    height: 40px;
+    width: 90px;
+    background-color:white;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 40px;
+    border: grey 1px dashed;
+}
